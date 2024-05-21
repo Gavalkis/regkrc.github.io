@@ -1093,7 +1093,13 @@ $(document).ready(function() {
           <!-- End Navigation -->
         <!-- </div>
       </div> -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        
+        <div class="top-phone">
+          <a class="lk" href="https://regkrc.ru/lichnyy-kabinet/">Личные кабинеты</a>
+          <i class="fa fa-phone blue"></i>&nbsp;<a href="tel:+7 861 220 42 78"><span class="blue" style="font-size: 16px;">+7 (861)</span> 255 34 </a>03
+        </div>
+
         <div class="container-fluid">
           <a class="navbar-brand" href="https://regkrc.ru/" title="Регистратор КРЦ">
             <img src="./Регистратор КРЦ - услуги для эмитентов и акционеров_files/KRC_Logo_New.svg" width="200px" height="70px"/>
@@ -1101,7 +1107,7 @@ $(document).ready(function() {
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown" style="text-transform: capitalize;">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
 
               <li class="nav-item dropdown">
@@ -1110,12 +1116,9 @@ $(document).ready(function() {
                           >О компании</a>
 
                         <ul class="dropdown dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="border: none;">
-                          <li>
-                            <a href="https://regkrc.ru/" class="dropdown-item">Главная</a>
-                          </li>
 
                           <li>
-                            <a href="https://regkrc.ru/news/" class="dropdown-item">Пресс-центр</a>
+                            <a href="https://regkrc.ru/news/" class="dropdown-item">Новости</a>
                           </li>
 
                           <li>
@@ -1124,11 +1127,11 @@ $(document).ready(function() {
                             >
                           </li>
 
-                          <li>
+                          <!-- <li>
                             <a href="https://regkrc.ru/company/historykrc/" class="dropdown-item"
                               >История</a
                             >
-                          </li>
+                          </li> -->
 
                           <li>
                             <a
@@ -1136,8 +1139,11 @@ $(document).ready(function() {
                               >Лицензии и свидетельства</a
                             >
                           </li>
-
                           <li>
+                            <a href="https://regkrc.ru/lichnyy-kabinet/svidetelstvo.pdf">Свидетельство о членстве в СРО НАУФОР</a>
+                          </li>
+
+                          <!-- <li>
                             <a href="https://regkrc.ru/company/technologii/" class="dropdown-item"
                               >Технологии</a
                             >
@@ -1147,7 +1153,7 @@ $(document).ready(function() {
                             <a href="https://regkrc.ru/company/rukovodstvo/" class="dropdown-item"
                               >Руководство</a
                             >
-                          </li>
+                          </li> -->
 
                           <li>
                             <a href="https://regkrc.ru/company/filialy/" class="dropdown-item"
@@ -1155,11 +1161,11 @@ $(document).ready(function() {
                             >
                           </li>
 
-                          <li>
+                          <!-- <li>
                             <a href="https://regkrc.ru/company/capital/" class="dropdown-item"
                               >Расчёт собственных средств</a
                             >
-                          </li>
+                          </li> -->
 
                           <li>
                             <a href="https://regkrc.ru/company/transferagenty/" class="dropdown-item"
@@ -1212,19 +1218,65 @@ $(document).ready(function() {
                 <a
                   href="https://regkrc.ru/?back_url_admin=%2Fbitrix%2Fadmin%2F#"
                   class="root-item pointer nav-link dropdown-toggle text-dark" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-                  >Наши услуги</a>
+                  >Эмитентам</a>
                 <ul class="dropdown dropdown-menu" style="border: none;">
                   <li>
                     <a href="https://regkrc.ru/uslugi/emitents/" class="dropdown-item"
-                      >Эмитентам</a
+                      >Услуги</a
+                    >
+                  </li>
+                  
+                  <li>
+                    <a
+                      href="https://regkrc.ru/preiskurant/dlya-emitentov/" class="dropdown-item"
+                      >Прейскуранты</a
                     >
                   </li>
 
                   <li>
-                    <a href="https://regkrc.ru/uslugi/actioneram/" class="dropdown-item"
-                      >Акционерам</a
+                    <a
+                      href="https://regkrc.ru/formyblankov/formyemitentam_2/" class="dropdown-item"
+                      >Формы бланков</a
                     >
                   </li>
+
+                  <li>
+                    <a
+                      href="https://regkrc.ru/docs/Pravila-na-edo-krc2.pdf" class="dropdown-item"
+                      >Правила ЭДО</a>
+                  </li>
+
+                  <li>
+                    <a
+                      href=" https://regkrc.ru/docs/Pravila-na-dop-uslugi.pdf" class="dropdown-item"
+                      >Правила регистрации выпуска акций</a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://regkrc.ru/docs/pravila2.pdf" class="dropdown-item"
+                      >Правила оказания доп услуг</a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://lke.regkrc.ru/" class="dropdown-item"
+                      >Личный кабинет</a>
+                  </li>
+
+                  
+                  <li>
+                    <a
+                      href="https://regkrc.ru/lichnyy-kabinet/DocLK" class="dropdown-item"
+                      >Документы по работе с ЛК</a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="emitentam.html" target="_blank" class="dropdown-item"
+                       >Договоры</a> <!-- 12 пункт -->
+                  </li>
+                  
                 </ul>
               </li>
 
@@ -1232,13 +1284,146 @@ $(document).ready(function() {
                 <a
                   href="https://regkrc.ru/?back_url_admin=%2Fbitrix%2Fadmin%2F#"
                   class="root-item pointer nav-link dropdown-toggle text-dark" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-                  >тарифы</a>
-                <ul class="dropdown dropdown-menu" style="border: none;">
+                  >Акционерам</a>
+                <ul class="dropdown dropdown-menu" style="border: none;">                   
+
                   <li>
-                    <a href="https://regkrc.ru/preiskurant/" class="dropdown-item"
-                      >для зарегистрированных лиц</a
+                    <a href="https://regkrc.ru/uslugi/actioneram/" class="dropdown-item"
+                      >Услуги</a
                     >
                   </li>
+
+                  <li>
+                    <a href="https://regkrc.ru/preiskurant/" class="dropdown-item"
+                      >Прейскуранты</a
+                    >
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://regkrc.ru/formyblankov/formyakcioneram_2/" class="dropdown-item"
+                      >Формы бланков</a >
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://regkrc.ru/emitents/doc12_4_%2001.04.2023.pdf" class="dropdown-item"
+                      >Правила ведения реестра</a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://lki.regkrc.ru/" class="dropdown-item"
+                      >Личный кабинет</a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://regkrc.ru/lichnyy-kabinet/DocLKI" class="dropdown-item"
+                      >Документы по работе с ЛК</a>
+                  </li>
+                  
+                  
+                  <li>
+                    <a
+                      href="https://regkrc.ru/docs/doc10-02052024.pdf" class="dropdown-item"
+                      >Перечень реестров на обслуживании</a>
+                  </li>
+
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  href="https://regkrc.ru/?back_url_admin=%2Fbitrix%2Fadmin%2F#"
+                  class="root-item pointer nav-link dropdown-toggle text-dark" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                  >Пайщикам</a>
+                <ul class="dropdown dropdown-menu" style="border: none;">
+                 
+                  <li>
+                    <a
+                      href="https://regkrc.ru/preiskurant/dlya-vladeltsev-pif/" class="dropdown-item"
+                      >Прейскуранты</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="https://regkrc.ru/formyblankov/forma-dlya-payshchikov/index.php" class="dropdown-item">
+                      Формы бланков</a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://regkrc.ru/specdepozit/pravila-vedeniya-reestra/" class="dropdown-item"
+                      >Правила ведения реестра ПИФ</a
+                    >
+                  </li>
+
+                  
+                  <li>
+                    <a
+                      href="https://regkrc.ru/docs/Perechen_PIF_06.05.2024.pdf" class="dropdown-item"
+                      >Перечень ПИФ</a
+                    >
+                  </li>
+
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  href="https://regkrc.ru/?back_url_admin=%2Fbitrix%2Fadmin%2F#"
+                  class="root-item pointer nav-link dropdown-toggle text-dark" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                  >Депонентам</a>
+                <ul class="dropdown dropdown-menu" style="border: none;">
+                 
+                  <li>
+                    <a
+                      href="https://regkrc.ru/depozitariy/tarify/index.php" class="dropdown-item"
+                      >Прейскуранты</a
+                    >
+                  </li>
+                  
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  href="https://regkrc.ru/?back_url_admin=%2Fbitrix%2Fadmin%2F#"
+                  class="root-item pointer nav-link dropdown-toggle text-dark" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                  >Управляющим компаниям</a>
+                <ul class="dropdown dropdown-menu" style="border: none;">
+                 
+                  <li>
+                    <a href="https://regkrc.ru/formyblankov/forma-dlya-payshchikov/index.php" class="dropdown-item">
+                      Формы бланков</a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://regkrc.ru/company/dockrc/" class="dropdown-item"
+                       >Договоры</a> <!-- 12 пункт -->
+                  </li>
+
+                  
+                  <li>
+                    <a
+                      href="https://regkrc.ru/specdepozit/tarify-spetsdepozit/arkhiv/Spisok_UK_06.05.2024.pdf" class="dropdown-item"
+                      >Перечень УК</a
+                    >
+                  </li>
+                  
+                </ul>
+              </li>
+
+              
+
+              <!-- <li class="nav-item dropdown">
+                <a
+                  href="https://regkrc.ru/?back_url_admin=%2Fbitrix%2Fadmin%2F#"
+                  class="root-item pointer nav-link dropdown-toggle text-dark" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                  >тарифы</a>
+                <ul class="dropdown dropdown-menu" style="border: none;">
 
                   <li>
                     <a
@@ -1254,9 +1439,9 @@ $(document).ready(function() {
                     >
                   </li>
                 </ul>
-              </li> 
+              </li>  -->
 
-              <li class="nav-item dropdown">
+              <!-- <li class="nav-item dropdown">
                 <a
                   href="https://regkrc.ru/?back_url_admin=%2Fbitrix%2Fadmin%2F#"
                   class="root-item pointer nav-link dropdown-toggle text-dark" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"
@@ -1265,53 +1450,45 @@ $(document).ready(function() {
                   <li>
                     <a
                       href="https://regkrc.ru/depozitariy/poluchatelyam-finansovykh-uslug/" class="dropdown-item"
-                      >получателям финансовых услуг</a
+                      >Получателям финансовых услуг</a
                     >
                   </li>
 
                   <li>
                     <a
                       href="https://regkrc.ru/depozitariy/uslugi/index.php" class="dropdown-item"
-                      >услуги</a
+                      >Услуги</a
                     >
                   </li>
 
                   <li>
                     <a
                       href="https://regkrc.ru/depozitariy/usloviya/index.php" class="dropdown-item"
-                      >условия</a
-                    >
-                  </li>
-
-                  <li>
-                    <a
-                      href="https://regkrc.ru/depozitariy/tarify/index.php" class="dropdown-item"
-                      >тарифы</a
+                      >Условия</a
                     >
                   </li>
 
                   <li>
                     <a
                       href="https://regkrc.ru/depozitariy/formy-dokumentov1/index.php" class="dropdown-item"
-                      >формы документов</a
+                      >Формы документов</a
                     >
                   </li>
 
                   <li>
                     <a
                       href="https://regkrc.ru/depozitariy/insayderam/index.php" class="dropdown-item"
-                      >инсайдерам</a
+                      >Инсайдерам</a
                     >
                   </li>
                 </ul>
-              </li>
+              </li> -->
               
-              <li class="nav-item dropdown">
+              <!-- <li class="nav-item dropdown">
                 <a
                   href="https://regkrc.ru/?back_url_admin=%2Fbitrix%2Fadmin%2F#"
                   class="root-item pointer nav-link dropdown-toggle text-dark" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-                  
-                  >специализированный депозитарий</a>
+                  >Специализированный депозитарий</a>
                 <ul class="dropdown dropdown-menu" style="border: none;">
                   <li>
                     <a
@@ -1376,7 +1553,7 @@ $(document).ready(function() {
                     >
                   </li>
                 </ul>
-              </li>
+              </li> -->
 
               <li class="nav-item dropdown">
                 <a href="" class="root-item pointer nav-link dropdown-toggle text-dark" 
@@ -1388,7 +1565,7 @@ $(document).ready(function() {
                     <a
                       href="https://regkrc.ru/poluchatelyam-finansovykh-uslug/"
                       class="root-item" class="dropdown-item"
-                      >получателям финансовых услуг</a
+                      >Получателям финансовых услуг</a
                     >
                   </li>
 
@@ -1396,7 +1573,7 @@ $(document).ready(function() {
                     <a
                       href="https://regkrc.ru/lichnyy-kabinet/" class="dropdown-item"
                       class="root-item"
-                      >личные кабинеты</a
+                      >Личные кабинеты</a
                     >
                   </li>
 
@@ -1404,16 +1581,16 @@ $(document).ready(function() {
                     <a
                       href="https://regkrc.ru/contacts/" class="dropdown-item"
                       class="root-item"
-                      >контакты</a
+                      >Контакты</a
                     >
                   </li>
-                  <li>
+                  <!-- <li>
                     <a
                       href="https://regkrc.ru/?back_url_admin=%2Fbitrix%2Fadmin%2F#" class="dropdown-item"
                       class="root-item pointer"
                       >формы бланков</a>
-                  </li>
-                      <li>
+                  </li> -->
+                      <!-- <li>
                         <a
                           href="https://regkrc.ru/formyblankov/formyakcioneram_2/" class="dropdown-item"
                           >Формы для акционеров</a
@@ -1431,24 +1608,24 @@ $(document).ready(function() {
                         <a href="https://regkrc.ru/formyblankov/forma-dlya-payshchikov/index.php" class="dropdown-item">
                           Формы для пайщиков и управляющих компаний</a>
                       </li>
-                  
+                   -->
                   <li>
                     <a
                       href="https://regkrc.ru/emitents/" class="dropdown-item"
                       class="root-item"
-                      >эмитенты и ПИФ</a>
+                      >Эмитенты и ПИФ</a>
                   </li>
 
                   <li>
                     <a href="https://regkrc.ru/rules/" class="root-item" class="dropdown-item"
-                      >правила</a>
+                      >Правила</a>
                   </li>
 
                   <li>
                     <a
                       href="https://regkrc.ru/politics/" class="dropdown-item"
                       class="root-item"
-                      >политики</a
+                      >Политики</a
                     >
                   </li>
 
@@ -1457,10 +1634,10 @@ $(document).ready(function() {
         </div>
       </nav>
       <!-- Slider -->
-      <section class="slider-zone">
+      <section class="slider-zone" style="margin-top: 95px;">
         <!-- SliderStart -->
 
-        <div class="owl-carousel owl-theme" style="opacity: 1; display: block">
+        <div class="owl-carousel owl-theme" style="opacity: 1; display: block;">
           <div class="owl-wrapper-outer">
             <div
               class="owl-wrapper"
@@ -1486,7 +1663,7 @@ $(document).ready(function() {
                       background-position: 50% 50%;
                     "
                   >
-                    <div class="container">
+                    <div class="container" >
                       <div class="osnova color-standart">
                         <div class="slide-name">
                           <div class="slide-zag">
@@ -1511,7 +1688,7 @@ $(document).ready(function() {
                           class="podrobnee-slider"
                           target="_self"
                         >
-                          <span>Подробнее</span>
+                          <span style="display: block; padding-left: 10px;">Подробнее</span>
                         </a>
                       </div>
                     </div>
@@ -1523,6 +1700,7 @@ $(document).ready(function() {
                         no-repeat;
                       background-size: cover;
                       background-position: 50% 50%;
+                      width: 100%;
                     "
                   >
                     <div class="container">
@@ -1573,12 +1751,13 @@ $(document).ready(function() {
 
       <!-- TopInfoZone -->
       <div class="topinfozone">
-        <div class="container">
+        <div class="container" style="
+        width: 100%;">
           <div class="row">            
-            <div class="col-md-9 startinfo">
-              <div class="row">
+            <div class="col-lg-9 col-sm-12 startinfo">
+              <div class="row block-row">
 
-                <div class="col-md-6 col-sm-6" style="width: 400px; margin-top: 30px;">
+                <div class="col-md-6 col-sm-6 col-lg-4" style="width: 400px; margin-top: 30px;">
                   <div class="card" style="border: none;">
                     <div class="card-body" style="border-radius: 0px;box-shadow: 1px 2px 8px -4px #000000; border: none;">
                       <h4 class="card-title" style="color: #333e48">Услуга по cозданию и лицензированию</h4>
@@ -1588,14 +1767,14 @@ $(document).ready(function() {
                       <div  style="display: flex; justify-content: end;">
                         <div>
                           <a style="border-radius: 0px;background-color: #47a5a0; border-color: #47a5a0; width: 200px; 
-                          font-size: 16px;" href="https://regkrc.ru/startinfo/usluga-po-sozdaniyu-i-litsenzirovaniyu/" class="btn btn-primary">Подробнее</a>
+                          font-size: 16px;" href="https://regkrc.ru/startinfo/usluga-po-sozdaniyu-i-litsenzirovaniyu/" class="btn btn-primary btn-block">Подробнее</a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="col-md-6 col-sm-6" style="width: 400px; margin-top: 30px;">
+                <div class="col-md-6 col-sm-6 col-lg-4" style="width: 400px; margin-top: 30px;">
                   <div class="card" style="border: none;">
                     <div class="card-body" style="border-radius: 0px;box-shadow: 1px 2px 8px -4px #000000; border: none;">
                       <h4 class="card-title" style="color: #333e48">АО «КРЦ» предлагает эмитентам:</h4>
@@ -1648,7 +1827,7 @@ $(document).ready(function() {
                   </div>
                 </div> -->
 
-                <div class="col-md-6 col-sm-6" style="width: 400px; margin-top: 30px;">
+                <div class="col-md-6 col-sm-6 col-lg-4" style="width: 400px; margin-top: 30px;">
                   <div class="card" style="border: none;">
                     <div class="card-body" style="border-radius: 0px;box-shadow: 1px 2px 8px -4px #000000; border: none;">
                       <h4 class="card-title" style="color: #333e48">Вы еще ведете реестр самостоятельно?</h4>
@@ -1663,7 +1842,7 @@ $(document).ready(function() {
                   </div>
                 </div>
 
-                <div class="col-md-6 col-sm-6" style="width: 400px; margin-top: 30px;">
+                <div class="col-md-6 col-sm-6 col-lg-4" style="width: 400px; margin-top: 30px;">
                   <div class="card" style="border: none;">
                     <div class="card-body" style="border-radius: 0px;box-shadow: 1px 2px 8px -4px #000000; border: none;">
                       <h4 class="card-title" style="color: #333e48">Осторожно, мошенники!</h4>
@@ -1681,7 +1860,7 @@ $(document).ready(function() {
                   </div>
                 </div>
 
-                <div class="col-md-6 col-sm-6" style="width: 400px; margin-top: 30px;">
+                <div class="col-md-6 col-sm-6 col-lg-4" style="width: 400px; margin-top: 30px;">
                   <div class="card" style="border: none;">
                     <div class="card-body" style="border-radius: 0px;box-shadow: 1px 2px 8px -4px #000000; border: none;">
                       <h4 class="card-title" style="color: #333e48">КЛИЕНТАМ ДЕПОЗИТАРИЯ</h4>
@@ -1697,7 +1876,7 @@ $(document).ready(function() {
                   </div>
                 </div>
 
-                <div class="col-md-6 col-sm-6" style="width: 400px; margin-top: 30px;">
+                <div class="col-md-6 col-sm-6 col-lg-4" style="width: 400px; margin-top: 30px;">
                   <div class="card" style="border: none;">
                     <div class="card-body" style="border-radius: 0px;box-shadow: 1px 2px 8px -4px #000000; border: none;">
                       <h4 class="card-title" style="color: #333e48">ВНИМАНИЮ ЭМИТЕНТОВ</h4>
@@ -1713,7 +1892,7 @@ $(document).ready(function() {
                   </div>
                 </div>
 
-                <div class="col-md-6 col-sm-6" style="width: 400px; margin-top: 30px;">
+                <div class="col-md-6 col-sm-6 col-lg-4" style="width: 400px; margin-top: 30px;">
                   <div class="card" style="border: none;">
                     <div class="card-body" style="border-radius: 0px;box-shadow: 1px 2px 8px -4px #000000; border: none;">
                       <h4 class="card-title" style="color: #333e48">Вниманию клиентов и контрагентов АО «КРЦ»</h4>
@@ -1730,7 +1909,7 @@ $(document).ready(function() {
                   </div>
                 </div>
 
-                <div class="col-md-6 col-sm-6" style="width: 400px; margin-top: 30px;">
+                <div class="col-md-6 col-sm-6 col-lg-4" style="width: 400px; margin-top: 30px;">
                   <div class="card" style="border: none;">
                     <div class="card-body" style="border-radius: 0px;box-shadow: 1px 2px 8px -4px #000000; border: none;">
                       <h4 class="card-title" style="color: #333e48; text-transform: capitalize;">Обращаем внимание на требования по ПОД/ФТ</h4>
@@ -1746,7 +1925,7 @@ $(document).ready(function() {
                   </div>
                 </div>
 
-                <div class="col-md-6 col-sm-6" style="width: 400px; margin-top: 30px;">
+                <div class="col-md-6 col-sm-6 col-lg-4" style="width: 400px; margin-top: 30px;">
                   <div class="card" style="border: none;">
                     <div class="card-body" style="border-radius: 0px;box-shadow: 1px 2px 8px -4px #000000; border: none;">
                       <h4 class="card-title" style="color: #333e48">Вниманию клиентов!</h4>
@@ -1810,7 +1989,7 @@ $(document).ready(function() {
       
 
       <!-- MainContZone -->
-      <div class="maincontzone">
+      <!-- <div class="maincontzone">
         <div class="container maincont">
           <p align="center">
             <b
@@ -1907,7 +2086,7 @@ $(document).ready(function() {
           </p>
           <br />
         </div>
-      </div>
+      </div> -->
 
       <!-- NewsZone -->
 
@@ -1930,7 +2109,7 @@ $(document).ready(function() {
 
       <div class="news">
         <div class="container newszone">
-          <h2 class="newsname" style="color: #333e48; font-size: 32px;">ПРЕСС-ЦЕНТР<br /></h2>
+          <h2 class="newsname" style="color: #333e48; font-size: 32px;">Новости<br /></h2>
 
           <div class="row">
             <div class="col-md-4" id="bx_1373509569_1653">
@@ -1951,7 +2130,7 @@ $(document).ready(function() {
                 </p>
                 <a
                   href="https://regkrc.ru/news/?ELEMENT_ID=1653"
-                  class="podrobnee" style="border-radius: 0px;background-color: #47a5a0; border-color: #47a5a0; width: 200px; 
+                  class="podrobnee" style="border-radius: 0px;background-color: #47a5a0; border-color: #47a5a0; width: 120px; 
                   font-size: 16px; height: 40px; color: white; padding: 5px;"
                   >Подробнее</a
                 >
@@ -1977,8 +2156,9 @@ $(document).ready(function() {
                 </p>
                 <a
                   href="https://regkrc.ru/news/?ELEMENT_ID=1652"
-                  class="podrobnee"
-                  >ПОДРОБНЕЕ</a
+                  class="podrobnee" style="border-radius: 0px;background-color: #47a5a0; border-color: #47a5a0; width: 120px; 
+                  font-size: 16px; height: 40px; color: white; padding: 5px;"
+                  >Подробнее</a
                 >
               </div>
               <div style="float: none; clear: both"></div>
@@ -2003,8 +2183,9 @@ $(document).ready(function() {
                 </p>
                 <a
                   href="https://regkrc.ru/news/?ELEMENT_ID=1651"
-                  class="podrobnee"
-                  >ПОДРОБНЕЕ</a
+                  class="podrobnee" style="border-radius: 0px;background-color: #47a5a0; border-color: #47a5a0; width: 120px; 
+                  font-size: 16px; height: 40px; color: white; padding: 5px;"
+                  >Подробнее</a
                 >
               </div>
               <div style="float: none; clear: both"></div>
@@ -2016,7 +2197,7 @@ $(document).ready(function() {
             href="https://regkrc.ru/news/"
             target="_self"
             title="смотреть все новости"
-            >все новости</a
+            >Все новости</a
           >
         </div>
       </div>
