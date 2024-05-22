@@ -288,6 +288,7 @@ hr {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 15px;
 }
 .row {
   margin-left: -15px;
@@ -1766,6 +1767,20 @@ tbody.collapse.in {
   background-color: #4d4d4d;
   white-space: nowrap;
 }
+  
+  @media screen and (max-width: 991px){
+    .dropdown-menu > li > a {
+      display: block;
+      padding: 3px 20px;
+      clear: both;
+      font-weight: normal;
+      line-height: 1.42857143;
+      color: #333;
+      background-color: #fff;
+      white-space: nowrap;
+    }
+  }
+
 /* Изменено Changed  color:#333 background-color: #fff*/
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
