@@ -367,6 +367,7 @@ ul.dropdown
 
   .block-row{
     display: flex; justify-content: center;
+    width: 100%;
   }
 
     .toplogo {
@@ -1763,7 +1764,7 @@ hr.simplehr {margin:5px 0px; border-color:#444;}
 
 /*Slider*/
 section.slider-zone {
-    max-width: 1400px;
+    /* max-width: 1400px; */
     margin: 0 auto;
     height: 500px;
     overflow-x: hidden;
@@ -2176,6 +2177,13 @@ a.phonecontact {
   color: #333e48;
   font-weight: 600;
 }
+
+@media (min-width: 1400px){
+  .container{
+    max-width: 1630px;
+  }
+}
+
 
 /* End */
 /* /bitrix/templates/.default/components/bitrix/menu/menu_top/style.css?17137812438396 */
