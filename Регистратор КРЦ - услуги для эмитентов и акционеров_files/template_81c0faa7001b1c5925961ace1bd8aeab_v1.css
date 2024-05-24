@@ -2045,7 +2045,7 @@ a.phonecontact {
 @media (min-width: 992px) {
   .startinfo {
       margin-left: -10px;
-      padding-left: 0px;
+      padding-left: 20px;
    }
 }
 
@@ -2184,7 +2184,23 @@ a.phonecontact {
   }
 }
 
+.podrobneeBtn{
+  border-radius: 0px;background-color: #47a5a0; border-color: #47a5a0; width: 200px; font-size: 16px;
+}
 
+.podrobneeBtn:hover{
+  background-color: #4eb9b4;
+  border: 1px solid #4eb9b4;
+}
+
+.podrobnee{
+  border-radius: 0px;background-color: #47a5a0; border-color: #47a5a0; width: 120px; 
+  font-size: 16px; height: 40px; color: white; padding: 5px;
+}
+.podrobnee:hover{
+  background-color: #4eb9b4;
+  border: 1px solid #4eb9b4;
+}
 /* End */
 /* /bitrix/templates/.default/components/bitrix/menu/menu_top/style.css?17137812438396 */
 /* /bitrix/templates/.default/components/bitrix/news.list/slider-top/style.css?17137919825724 */
