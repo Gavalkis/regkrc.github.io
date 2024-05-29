@@ -1735,7 +1735,7 @@ hr.simplehr {margin:5px 0px; border-color:#444;}
       position:relative;
 }
 .top-phone {
-  width:400px; height:27px;
+  width:700px; height:27px;
    /* margin-top:7px; float:right;  */
   color:#47a5a0; 
   font-size:23px;
@@ -1754,7 +1754,7 @@ hr.simplehr {margin:5px 0px; border-color:#444;}
 .section__name_part {
      color: #fff;
      text-align: center;
-     margin-top:50px;
+     margin-top:10px;
      font-family: 'PT Sans',sans-serif,  Tahoma;
 }
 .section__name_part h2 {
@@ -1819,12 +1819,12 @@ section.slider-zone {
      overflow-x: hidden; 
      overflow-y: hidden;
      margin-top:60px;
-     background:#173b6c url("partners-bg.jpg");
+     background:#fff;
      background-repeat: no-repeat;
      background-position:top center;  
      color:#fff; display:block; 
      position:relative;
-     min-height:315px; 
+     min-height:200px; 
      min-width: 300px;
 }
 .partnersname {   
@@ -1848,10 +1848,10 @@ section.slider-zone {
      margin-top:20px;
 }
 .zakaz-text {
-     padding:50px 0px 20px 50px;
+     padding: 19px 0px 40px 50px;
      font-size: 16px;
 }
-.zakaz-text h1 {
+.zakaz-text h4 {
      font-size:30px;
      color:#5a5a5a;
 }
@@ -1893,12 +1893,21 @@ section.slider-zone {
 
 /* Footer */
 .footer {
-     background:#323232 url(/img/footer-bg.jpg) repeat;
+     background:#daf3f7;
      color:#6f6f6f; 
      padding-top:30px;
      padding-bottom:10px;
      position:relative;
      min-width: 300px;
+}
+/* Links dark */
+.footer-links .root-item{
+  color: #333;
+}
+
+.footer-links .root-item:hover{
+  text-decoration: underline;
+  color: #47a5a0;
 }
 
 .botcontact {
@@ -1911,7 +1920,7 @@ section.slider-zone {
 .nameuslugi, .namecontact  {
      font-family: 'PT Sans',sans-serif,  Tahoma;
      font-size:20px; 
-     color:#fff;
+     color:#333;
 }
 .namecontact  {
      padding: 15px 15px 15px 30px;
@@ -1922,7 +1931,7 @@ section.slider-zone {
 }
 
 a.mailcontact {
-     color:#fff; 
+     color:#333; 
      text-decoration:none;
 }
 a.mailcontact:hover {
@@ -1935,6 +1944,10 @@ a.phonecontact {
 .contactblock {
     margin-top:10px;
     margin-bottom:25px;
+}
+
+td{
+  color: #333;
 }
 
 /* Bottom Menu */
