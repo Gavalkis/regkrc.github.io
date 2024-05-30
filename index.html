@@ -1277,12 +1277,6 @@ $(document).ready(function() {
                       >Правила оказания доп. услуг</a>
                   </li>
 
-                  <li>
-                    <a
-                      href="https://lke.regkrc.ru/" class="dropdown-item"
-                      >Личный кабинет</a>
-                  </li>
-
                   
                   <li>
                     <a
@@ -1294,6 +1288,13 @@ $(document).ready(function() {
                     <a
                       href="emitentam.html" target="_blank" class="dropdown-item"
                        >Договоры</a> <!-- 12 пункт -->
+                  </li>
+
+                  <li>
+                    <!-- https://lke.regkrc.ru/ -->
+                    <a
+                      href="AccountEmitentInfo.html" class="dropdown-item"
+                      >Личный кабинет</a>
                   </li>
                   
                 </ul>
@@ -1334,12 +1335,6 @@ $(document).ready(function() {
 
                   <li>
                     <a
-                      href="https://lki.regkrc.ru/" class="dropdown-item"
-                      >Личный кабинет</a>
-                  </li>
-
-                  <li>
-                    <a
                       href="https://regkrc.ru/lichnyy-kabinet/DocLKI" class="dropdown-item"
                       >Документы по работе с ЛК</a>
                   </li>
@@ -1351,6 +1346,12 @@ $(document).ready(function() {
                       >Перечень реестров на обслуживании</a>
                   </li>
 
+                  <li>
+                    <!-- https://lki.regkrc.ru/ -->
+                    <a
+                      href="AccountActionerInfo.html" class="dropdown-item"
+                      >Личный кабинет</a>
+                  </li>
                 </ul>
               </li>
 
@@ -1422,9 +1423,32 @@ $(document).ready(function() {
                        >Правила ЭДО</a> 
                   </li>
 
+                
+                  
+<!-- Отключенная лишка -->
+                  <li class="disabled" style="border: 1px solid rgba(0, 0, 0, .15);
+                  background-color: #4d4d4d; color: #fff; font-size: 15px; font-weight: 750;
+                  padding: 8px 4px 8px 4px;">
+                    Ведение реестра
+                  </li>
+
+                  
+
+                  <li>
+                    <a
+                      href="https://regkrc.ru/preiskurant/dlya-vladeltsev-pif/" class="dropdown-item"
+                      >Прейскуранты</a
+                    >
+                  </li>
+
                   <li>
                     <a href="https://regkrc.ru/formyblankov/forma-dlya-payshchikov/index.php" class="dropdown-item">
                       Формы бланков пайщиков</a>
+                  </li>
+
+                  <li>
+                    <a href="https://regkrc.ru/formyblankov/forma-dlya-payshchikov/index.php" class="dropdown-item">
+                      Формы бланков УК</a>
                   </li>
 
                   <li>
@@ -1439,25 +1463,6 @@ $(document).ready(function() {
                       href="https://regkrc.ru/docs/Perechen_PIF_06.05.2024.pdf" class="dropdown-item"
                       >Перечень ПИФ</a
                     >
-                  </li>
-                  
-<!-- Отключенная лишка -->
-                  <li class="disabled" style="border: 1px solid rgba(0, 0, 0, .15);
-                  background-color: #4d4d4d; color: #fff; font-size: 15px; font-weight: 750;
-                  padding: 8px 4px 8px 4px;">
-                    Ведение реестра
-                  </li>
-
-                  <li>
-                    <a
-                      href="https://regkrc.ru/preiskurant/dlya-vladeltsev-pif/" class="dropdown-item"
-                      >Прейскуранты</a
-                    >
-                  </li>
-
-                  <li>
-                    <a href="https://regkrc.ru/formyblankov/forma-dlya-payshchikov/index.php" class="dropdown-item">
-                      Формы бланков УК</a>
                   </li>
 
                   <li>
@@ -1846,32 +1851,86 @@ $(document).ready(function() {
       </section>
       <!-- End StartScreen -->
       <!-- Carusel carnival -->
-      <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="/Регистратор КРЦ - услуги для эмитентов и акционеров_files/8r2pam99gyduua1lxj5yadl6aoten7zw.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <div class="container" >
+                <div class="osnova color-standart" style="background-color: #00000071;">
+                  <div class="slide-name">
+                    <div class="slide-zag">
+                      <p style="text-align: center">
+                        <b><span style="color: #ff0000; ">Акция!</span>
+                          <br />
+                          Регистрация АО<br />
+                          5500 руб.</b>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="slide-opis">
+                    <ul>
+                      <li>Без&nbsp; обращения в Банк России</li>
+                      <li>Без оплаты государственной пошлины</li>
+                      <li>Без посещения нотариуса</li>
+                      <li>Без посещения&nbsp; ФНС</li>
+                    </ul>
+                  </div>
+                  <a
+                    href="https://regkrc.ru/action/aktsiya-registratsiya-ao/"
+                    class="podrobnee-slider"
+                    target="_self"
+                  >
+                    <span style="display: block; padding-left: 10px;">Подробнее</span>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="/Регистратор КРЦ - услуги для эмитентов и акционеров_files/0l3as62ow1zndt3indjed2b2u79qhf42.png" class="d-block w-100" alt="...">
+          <div class="carousel-item" style="height: 465px;">
+            <img src="/Регистратор КРЦ - услуги для эмитентов и акционеров_files/mnk.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/Регистратор КРЦ - услуги для эмитентов и акционеров_files/Logo_RNCB.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <div class="container" >
+                <div class="osnova color-standart" style="background-color: #00000071; max-width: 500px;">
+                  <div class="slide-name">
+                    <div class="slide-zag">
+                      <p style="text-align: center">
+                        <b>Создание УК</b>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="slide-opis">
+                    <ul >
+                      <li class="mb-1">
+                        Создать и зарегистрировать юридическое лицо
+                      </li>
+                      <li class="mb-1">
+                        Подобрать персонал
+                      </li>
+                      <li class="mb-1">
+                        Сформировать собственные средства – от 20 млн рублей
+                      </li>
+                      <li class="mb-1">
+                        Подготовить комплект документов для подачи в Банк России 
+                      </li>
+                      <li>
+                        Провести оценку финансового положения собственников будущей УК, владеющих более 10% ее акций (долей)
+                      </li>
+                    </ul>
+                  </div>
+                  <a
+                    href="https://regkrc.ru/specdepozit/uslugi-spetsdepozit/"
+                    class="podrobnee-slider"
+                    target="_self"
+                  >
+                    <span style="display: block; padding-left: 10px;">Подробнее</span>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -1883,7 +1942,7 @@ $(document).ready(function() {
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div> -->
+      </div>
 <!-- End carusel carnival -->
       <!-- TopInfoZone -->
       <div class="topinfozone">
@@ -1964,11 +2023,12 @@ $(document).ready(function() {
                 <div class="col-md-6 col-sm-6 col-lg-4" style="width: 400px; margin-top: 30px;">
                   <div class="card" style="border: none;">
                     <div class="card-body" style="border-radius: 0px;box-shadow: 1px 2px 8px -4px #000000; border: none;">
-                      <h4 class="card-title" style="color: #333e48">Вы еще ведете реестр самостоятельно?</h4>
-                      <p style="color: #333e48; margin: 20px 0px 20px 0px;" class="card-text">Мы рады предложить Вам услуги по ведению реестра владельцев ценных бумаг. АО «КРЦ» всегда идет навстречу своим клиентам, опыт работы и профессионализм сотрудников специализированного регистратора позволяют обеспечить оказание полного комплекса услуг...</p>
+                      <h4 class="card-title" style="color: #333e48">Передать реестр с легкостью</h4>
+                      <p style="color: #333e48; margin: 20px 0px 20px 0px;" class="card-text">поможет наша компания. Мы рады предложить Вам услуги по ведению реестра владельцев ценных бумаг. АО «КРЦ» всегда идет навстречу своим клиентам, опыт работы и профессионализм сотрудников специализированного регистратора позволяют обеспечить оказание полного комплекса услуг...</p>
                       <div  style="display: flex; justify-content: end;">
                         <div>
-                          <a href="https://regkrc.ru/startinfo/vy-eshche-vedete-reestr-samosto/" class="btn btn-primary podrobneeBtn">Подробнее</a>
+                          <!-- https://regkrc.ru/startinfo/vy-eshche-vedete-reestr-samosto/ -->
+                          <a href="ReestrUsluga.html" class="btn btn-primary podrobneeBtn">Подробнее</a>
                         </div>
                       </div>
                     </div>
