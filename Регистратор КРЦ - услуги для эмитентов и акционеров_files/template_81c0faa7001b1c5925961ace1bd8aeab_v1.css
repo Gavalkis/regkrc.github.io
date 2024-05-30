@@ -2214,6 +2214,16 @@ td{
   background-color: #4eb9b4;
   border: 1px solid #4eb9b4;
 }
+
+.txt{
+  color: #000000;
+}
+.list{
+  list-style:decimal;
+}
+.list li{
+  margin-bottom: 7px;
+}
 /* End */
 /* /bitrix/templates/.default/components/bitrix/menu/menu_top/style.css?17137812438396 */
 /* /bitrix/templates/.default/components/bitrix/news.list/slider-top/style.css?17137919825724 */
