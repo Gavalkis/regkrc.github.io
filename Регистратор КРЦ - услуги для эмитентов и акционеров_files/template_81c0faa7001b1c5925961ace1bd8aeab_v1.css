@@ -2224,6 +2224,48 @@ td{
 .list li{
   margin-bottom: 7px;
 }
+.ulist{
+  list-style: disc;
+}
+.ulist li{
+  margin-bottom: 7px;
+}
+
+.txt li{
+  margin-top: 10px;
+}
+.titlTtxt {
+  font-weight: 700;
+  color: #000000;
+}
+h6{
+  color: #333;
+}
+
+.text{
+  color: #000000; 
+}
+.text:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+.block{
+  border-radius: 5px;
+  border: 1px solid #b8b8b8;
+  padding: 40px;
+  
+}
+.order li{
+  margin-bottom: 15px;
+}
+.fontS{
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+
+
 /* End */
 /* /bitrix/templates/.default/components/bitrix/menu/menu_top/style.css?17137812438396 */
 /* /bitrix/templates/.default/components/bitrix/news.list/slider-top/style.css?17137919825724 */
