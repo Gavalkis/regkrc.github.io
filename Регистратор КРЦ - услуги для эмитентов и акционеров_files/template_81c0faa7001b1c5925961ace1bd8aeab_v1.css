@@ -2266,6 +2266,10 @@ h6{
   font-weight: 600;
 }
 
+.require{
+  max-width: 400px;
+}
+
 
 /* End */
 /* /bitrix/templates/.default/components/bitrix/menu/menu_top/style.css?17137812438396 */
