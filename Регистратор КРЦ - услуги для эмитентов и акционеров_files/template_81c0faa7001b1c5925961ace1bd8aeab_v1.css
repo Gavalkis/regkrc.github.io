@@ -1663,8 +1663,8 @@ table td {padding:7px;}
 
 /* TopInfoZone */
 .topinfozone {
-    padding-top: 20px;
-    margin-bottom:30px;
+    padding: 0px 50px;
+    margin: 30px 0px;
 }
 
 /* Osnova and Maincont */ 
@@ -2057,10 +2057,10 @@ td{
 }
 
 @media (min-width: 992px) {
-  .startinfo {
+  /* .startinfo {
       margin-left: -10px;
       padding-left: 20px;
-   }
+   } */
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -2269,6 +2269,14 @@ h6{
 .require{
   max-width: 400px;
 }
+
+.startinfoCard{
+  width: 400px!important;
+  height: 280px!important;
+  margin-top: 30px;
+}
+
+
 
 
 /* End */
