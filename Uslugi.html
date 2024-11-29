@@ -441,9 +441,9 @@
         </div>
       </div>
     </nav>
-
+<!-- Начало -->
     <div class="container">
-      <div class="card" style="height: 500px; padding: 20px; margin: 120px 50px 50px 50px;
+      <div class="card" style="height: 1620px; padding: 20px; margin: 120px 50px 50px 50px;
       border-radius: 5px; box-shadow: 1px 2px 8px -4px #000000;">
         <h2 style="color: #000000; font-size: 36px;" align="justify" >
             Услуги депозитария
@@ -452,16 +452,16 @@
         <div class="d-flex">
 
           <div class="card-group">
-            <div class="card">
+            <div class="card border">
               
               <div class="card-body">
                 <h5 class="card-title text-dark">Открытие и ведение счетов депо</h5>
                 <p class="card-text">установленных законодательством
                   Российской Федерации.</p>
-                
+                  <a href="#checkForm"><button class="btn btn-primary mt-3">Заказать услугу</button></a>
               </div>
             </div>
-            <div class="card mx-4">
+            <div class="card mx-4 border">
               
               <div class="card-body">
                 <h5 class="card-title text-dark">Учет и хранение ценных бумаг</h5>
@@ -470,23 +470,141 @@
                   <li>Облигации</li>
                   <li>и др.</li>
                 </ul>
-              
+                <a href="#checkForm"><button class="btn btn-primary mt-3">Заказать услугу</button></a>
               </div>
             </div>
-            <div class="card">
+            <div class="card border">
              
               <div class="card-body">
                 <h5 class="card-title text-dark">Представление интересов владельца ценных бумаг</h5>
                 <p class="card-text">на общих собраниях
                   акционеров по поручению владельца ценных бумаг</p>
-                
+                  <a href="#checkForm"><button class="btn btn-primary mt-3">Заказать услугу</button></a>
               </div>
             </div>
             
           </div>
 
         </div>
-      
+        <!-- Условия документы -->
+        <p class="text-dark fs-4 mt-4">Условия</p>
+        <div class="d-flex flex-start">
+
+          <div class="card  m-2">
+            <div class="card-body">
+              <p class="card-text">
+                Для физических лиц
+              </p>
+              <div class="mx-auto d-flex justify-content-center mt-3">
+                <a href="#"><img src="./document_icon.png" class="d-block" alt="document"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card m-2">
+            <div class="card-body">
+              <p class="card-text">
+                Для юридических лиц
+              </p>
+              <div class="mx-auto d-flex justify-content-center mt-3">
+                <a href="#"><img src="./document_icon.png" class="d-block" alt="document"></a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <a href="https://regkrc.ru/depozitariy/usloviya/index.php">
+          <p>Полный перечень документов</p>
+        </a>
+        <!-- Уведомление клиентов -->
+        <div class="d-flex my-4">
+
+          <div class="card">
+            <div class="card-body">
+              <p class="card-header text-dark fs-4">Уважаемые клиенты депозитария</p>
+              <p class="card-text">Информируем о наличии у Вас права перевести свои ценные бумаги с торговых счетов депо на иные счета депо, открытые в Депозитарии, в случае если такой перевод возможен в соответствии с требованиями законодательства Российской Федерации.
+              </p>
+            </div>
+          </div>
+
+        </div>
+       
+        <!-- Форма -->
+        <div class="d-flex">
+
+          <div class="card border p-4" id="checkForm">
+            <form>
+              <div class="mb-3">
+                <label for="#nameOrganisation" class="form-label">Наименование организации*</label>
+                <input type="text" class="form-control" placeholder="Название компании" id="nameOrganisation">
+              </div>
+
+              <div class="mb-3">
+                <label for="#nameOrganisation" class="form-label">Контактное лицо*</label>
+                <input type="text" class="form-control" placeholder="ФИО" id="nameOrganisation">
+              </div>
+
+              <div class="mb-3">
+                <label for="#nameOrganisation" class="form-label">Комментарий</label>
+                <input type="text" class="form-control" placeholder="Услуга" id="nameOrganisation">
+              </div>
+
+              <div class="row">
+                <div class="mb-3 col-6">
+                  <label for="InputEmail1" class="form-label">Почта</label>
+                  <input type="email" class="form-control" placeholder="example@mail.ru" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3 col-6">
+                  <label for="InputPhone" class="form-label">Телефон</label>
+                  <input type="phone" class="form-control" placeholder="+7(999)999-99-99" id="InputPhone" >
+                </div>
+              </div>
+
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Согласен с условиями обработки данных</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Отправить заявку</button>
+            </form>
+          </div>
+
+        </div>
+
+         <!-- Контакты -->
+         <p class="fs-4 text-dark my-2">Также вы можете связаться с нами:</p>
+        <div class="d-flex row">
+
+          <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <th scope="row">
+                    <img src="./phone-call_455705.png"
+                    alt="phone" style="width: 30px; height: 30px">
+                  </th>
+                  <td><a href="tel:88612553403">8 (861) 255-34-03</a> (доб. 104, 138)</td>
+                </tr>
+                <tr>
+                  <th scope="row" style="width: 30px; height: 30px">
+                    <img src="./location_9796154.png"
+                    alt="location" style="width: 30px; height: 30px;">
+                  </th>
+                  <td><a href="./Contacts.html">Центральный офис</a></td>
+                </tr>
+                <tr>
+                  <th scope="row" style="width: 30px; height: 100%">
+                    <img src="https://rznclean.ru/images/img_81706.png"
+                    alt="email" style="width: 30px; height: 30px;">
+                  </th>
+                  <td><a href="mailto:info@kubrс.ru">info@kubrс.ru</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+
         <!-- <ul class="order" style="list-style:disc;">
           <li>
             
