@@ -2276,6 +2276,19 @@ h6{
   margin-top: 30px;
 }
 
+.card-hover{
+  cursor: pointer;
+}
+
+.card-hover:hover{
+  transform: scale(1.1);
+  transition: 600ms;
+}
+
+.card-hover:active{
+  transform: scale(0.98);
+  transition: 500ms;
+}
 
 
 
