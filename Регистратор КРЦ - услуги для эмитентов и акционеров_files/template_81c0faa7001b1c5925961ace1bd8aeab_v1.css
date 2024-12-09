@@ -2290,7 +2290,17 @@ h6{
   transition: 500ms;
 }
 
+.regCard{
+  height: 6rem;
+  background: linear-gradient( #5cd4ce, 30%, #47A5A0); 
+  cursor: pointer;
+  position: relative; 
+  transition: 400ms;
+}
 
+.regCard:hover{
+  transform: scale(1.01); transition: 400ms;
+}
 
 /* End */
 /* /bitrix/templates/.default/components/bitrix/menu/menu_top/style.css?17137812438396 */
